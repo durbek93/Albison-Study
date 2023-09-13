@@ -1,0 +1,270 @@
+:root {
+  --main-color: #faeb8c;
+  --banner-color: #051473;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  font-family: 'Playfair Display', 'DMSans';
+}
+
+
+body {
+  background: var(--main-color);
+  width: 1600px;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayFairItail.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../fonts/DMSansItal.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../fonts/DMSans-Light.ttf');
+  font-weight: 400;
+}
+
+.main-header {
+  background-color: var(--main-color);
+}
+
+.logo {
+  position: relative;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.menu-img {
+  margin-left: auto;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.container {
+  width: 1600px;
+  background: var(--main-color);
+  display: block;
+  padding-left: 177px;
+}
+
+.main {}
+
+.headsec {}
+
+.headsec-title {
+  width: 55%;
+  padding-top: 198px;
+}
+
+.headsec-title h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  color: var(--banner-color);
+}
+
+.topsec {}
+
+.topsec-scndtitle {
+  font-family: 'Playfair Display';
+  /* width: 850px; */
+  color: var(--banner-color);
+  padding: 293px 257px 0px 310px;
+}
+
+.topsec-scndtitle h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.topsec-one {
+  width: 90%;
+  padding: 31px 171px 0px 632px;
+}
+
+.topsec-thrdtitle {
+  font-family: 'DMSans';
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--banner-color);
+  padding-top: 55px;
+}
+
+.topsec-prgrph {
+  padding-top: 34px;
+  font-size: 24px;
+  font-family: 'DMSans';
+  font-weight: 400;
+}
+
+.little-parag {}
+
+.middlesec {}
+
+.middlecsec_frst {
+  padding-left: 97px;
+  padding-top: 86px;
+}
+
+.middlesec-frsttitle {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 100px;
+  color: var(--banner-color);
+  padding-top: 39px;
+}
+
+.inverse {
+  background: var(--banner-color);
+  color: var(--main-color);
+  padding-left: 499px;
+  margin-top: 44px;
+  width: 1600px;
+}
+
+.middlesec_scnd {
+  padding-top: 50px;
+}
+
+.middlesec-firsttitle {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 100px;
+}
+
+.middlesec-parag {
+  width: 30%;
+  font-family: 'DMSans';
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 41px;
+  padding-bottom: 30px;
+  vertical-align: top;
+}
+
+.middlesec-parag:last-child {
+  margin-left: 43px;
+}
+
+/* .middlesec-right_parag {
+  width: 30%;
+} */
+.imgsec-firsttitle {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 100px;
+  color: var(--banner-color);
+  padding-top: 33px;
+  padding-left: 97px;
+}
+
+.middlesec_thrd {}
+
+.middlesec_third-scndtitle {
+  padding: 126px 570px 0px 0px;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--banner-color);
+}
+
+.imgsec-parag {
+  padding: 41px 801px 0px 0px;
+}
+
+.middlesec_third-parag {}
+
+.middlesec_frth {
+  padding-top: 95px;
+}
+
+.middlesec_frth-parag {
+  vertical-align: top;
+  position: relative;
+  top: 45px;
+  width: 25%;
+  font-family: 'DMSans';
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.middlesec_frth-img {
+  width: 68%;
+  padding-right: 181px;
+}
+
+.bottomsec {}
+
+.bottomsec-part_one {
+  width: 70%;
+}
+
+.bottomsec-frsttitle {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 100px;
+  color: var(--banner-color);
+  padding-top: 39px;
+}
+
+.bottomsec-scndtitle {
+  /* padding: 126px 570px 0px 0px; */
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--banner-color);
+}
+
+.bottomsec-part_two {
+  width: 75%;
+  padding-left: 318px;
+}
+
+.bottomsec-part_two-parag {}
+
+
+
+.bottomsec-part_three {}
+
+.bottomsec-part_three-img {}
+
+.flex {}
+
+.list-reset {}
+
+.bottomsec-list {}
+
+ul li {
+  list-style: none;
+}
+
+.bottomsec-list-item {
+  width: 30%;
+}
+
+
+
+/* .bottomsec-list-item img {
+  width: 100%;
+} */
+
+.bottomsec-list-item-img {}
+
+.bottomsec-list-item-parag {}
+
+.bottom-list-item {}
+
+.footer {}
