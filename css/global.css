@@ -6,3 +6,11 @@ p {
   margin: 0;
   /* Устанавливаем отступы по вертикали и горизонтали в ноль */
 }
+.list-reset {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
