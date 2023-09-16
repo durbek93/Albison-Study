@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 40px;
+  margin: 20px;
+}
+
+.main {
+  display: inline-block;
+  width: 350px;
+  border: 8px double cornflowerblue;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: aqua;
+  margin: 20px;
+}
+
+.img_main {
+  position: relative;
+}
+
+.img_main img {
+  width: 100%;
+}
+
+.obj_main {
+  background-color: gold;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 900;
+  padding: 15px 0;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+.text_main {
+  padding: 20px;
+}
+
+.text_main h2 {
+  padding: 10px 0;
+}
+
+.text_main p {
+  padding: 10px 0;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 50px;
+}
+
+.btn_buy {
+  background-color: greenyellow
+}
+
+.btn_show {
+  background-color: darkslategray;
+  color: white
+}
+
+.second_container {
+  border: 4px solid blue;
+  margin: 20px;
+  padding: 40px;
+}
+
+.second_main {
+  border-bottom: 4px solid grey;
+  border-top-left-radius: 50px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8)), url(https://i0.wp.com/www.techjunkie.com/wp-content/uploads/2017/04/windowsmacvsbanner.jpg?resize=1200%2C1000&ssl=1);
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  margin: 0 auto;
+  border: 3px solid lawngreen;
+  padding: 30px;
+  text-shadow: 1px 1px white;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 22px;
+  box-shadow: 0 15px 5px 5px darkcyan;
+}
+
+.second_main h1 {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.second_main p {
+  text-align: justify;
+}
+
+.second_btn {
+  margin: 30px;
+  padding: 6px 15px;
+  border-radius: 0;
+}

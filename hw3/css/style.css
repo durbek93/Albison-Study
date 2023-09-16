@@ -1,0 +1,51 @@
+.container {
+  background-image: linear-gradient(to right, lightblue, lightgreen);
+  padding: 15px;
+}
+
+.card {
+  display: inline-block;
+  width: 28%;
+  background-color: khaki;
+  margin: 20px 30px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card_content {
+  padding: 10px 30px;
+}
+
+.card_content h2 {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 8px;
+}
+
+.card_content p {
+  text-align: center;
+}
+
+.card_content form {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.black {
+  color: black;
+}
+
+.card_btn {
+  padding: 5px 15px;
+  display: block;
+  margin: 20px auto;
+  background-color: aquamarine;
+}

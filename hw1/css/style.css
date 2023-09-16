@@ -1,0 +1,47 @@
+.content {
+  background-color: pink;
+  color: #fff;
+}
+
+h3 {
+  background-color: red;
+}
+
+u {
+  background-color: aqua;
+  color: red;
+}
+
+.blue {
+  background-color: gray;
+}
+
+.blue h1 {
+  color: blue;
+}
+
+.green {
+  background-color: yellow;
+}
+
+.green h1 {
+  color: green;
+}
+
+h2 {
+  color: brown;
+}
+
+#red_id {
+  color: red;
+}
+
+.green_text input[type="text"] {
+  background-color: green;
+  margin-left: 3px;
+}
+
+.blue_text input[type="password"] {
+  background-color: blue;
+  margin-left: 3px;
+}
