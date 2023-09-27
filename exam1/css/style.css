@@ -1,0 +1,126 @@
+nav {
+  width: 20%;
+  height: 100%;
+
+}
+
+.navig {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #031c30;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.navig-list {
+  box-sizing: border-box;
+}
+
+.navig-list li {
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  padding: 5px 3px;
+}
+
+.navig-list li:hover {
+  color: gold;
+  cursor: pointer;
+  background-color: #06243dfa;
+}
+
+.navig-list-item:hover .hvr-link {
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+}
+
+.hvr-link {
+  position: absolute;
+  top: 0;
+  left: 90%;
+  padding: 0px;
+  /* border: 1px solid red; */
+  background-color: #06243dfa;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: 0.3s;
+}
+
+.main {
+  width: 79%;
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+.card {
+  width: 30%;
+  display: inline-block;
+  margin-right: 30px;
+  background-color: #5D7285;
+}
+
+.card:last-child {
+  margin-right: 0px;
+}
+
+.card:first-child {
+  background-color: #5FB3F6;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-article {
+  position: relative;
+  padding: 20px 10px;
+}
+
+.card-title {}
+
+.card-parag {
+  margin-top: 10px;
+}
+
+.card-form {
+  position: relative;
+}
+
+
+.card-btn {}
+
+.like-btn {
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-weight: 600;
+  position: absolute;
+  bottom: 145px;
+  left: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.subs-btn {
+  border: 2px solid #06243dfa;
+  background-color: transparent;
+  padding: 4px 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin: 5px 0px 15px 10px;
+}
+
+.subs-btn:hover {
+  background-color: #06243dfa;
+  color: gold;
+}
