@@ -1,0 +1,47 @@
+body {
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+}
+
+.header-link {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-link_page {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.main-title {
+  margin-top: 100px;
+}
+
+.main-title_item {
+  font-size: 80px;
+  text-shadow: 2px 2px rgb(236, 30, 30), -2px -2px aqua;
+}
+
+.main-parag {}
+
+.main-logo {
+  font-weight: 400;
+  font-family: "Font Awesome 6 Brands";
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  text-shadow: 6px 6px rgb(236, 30, 30), -6px -6px aqua;
+  font-size: 200px;
+}
+
+.main-logo_item::before {
+  content: "\e07b";
+}
