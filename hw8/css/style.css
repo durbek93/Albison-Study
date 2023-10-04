@@ -98,3 +98,6 @@ body {
   line-height: 1;
   text-rendering: auto;
 }
+.fa-jet-fighter-up:before {
+  content: "\e518";
+}

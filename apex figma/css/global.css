@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.list-reset {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  /* Устанавливаем отступы по вертикали и горизонтали в ноль */
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  /* background-color: transparent; */
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("MontserratLight"),
+    url('../fonts/Montserrat-/Montserrat-Light.woff2') format('woff2'),
+    url('../fonts/Montserrat-/Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("MontserratRegular"),
+    url('../fonts/Montserrat-/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("MontserratMedium"),
+    url('../fonts/Montserrat-/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/Montserrat-/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local("MontserratExtraBold"),
+    url('../fonts/Montserrat-/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-/Montserrat-ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg-color: #00445B;
+  --btn-color: #FDB44B;
+  --light-text-color: #646464;
+
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

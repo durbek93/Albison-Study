@@ -1,0 +1,557 @@
+:root {
+  --bg-color: #00445B;
+  --btn-color: #FDB44B;
+  --light-text-color: #646464;
+
+}
+
+.header {
+  /* background-image: url(../img/Rectangle_6.png); */
+}
+
+.header-wrapper {
+  background-image: url(../img/Rectangle_6.png);
+  background-position: center;
+  background-size: cover;
+  background-color: var(--bg-color);
+  background-blend-mode: multiply;
+  height: 676px;
+  color: white;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  margin: 30px 0px 0px 100px;
+}
+
+.header-top {}
+
+.logo {}
+
+.logo-img {}
+
+.header-logo_img {
+  width: 100px;
+  height: 100px;
+}
+
+.header-logo_text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  /* margin-right: auto; */
+}
+
+.logo-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.navigation {
+  margin-top: 71px;
+  margin-left: 140px;
+}
+
+.navigation-list {}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 30px;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navigation-list-item_link {}
+
+.header-title {
+  text-align: center;
+  /* margin: 0 auto; */
+  margin-top: 100px;
+}
+
+.header-title-first {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.86px;
+}
+
+.header-title-descr {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: black;
+  background-color: var(--btn-color);
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-btn {
+  padding: 25px 48px;
+  margin-left: 565px;
+  margin-top: 60px;
+
+}
+
+.main {}
+
+.section-reset {
+  margin-top: 150px;
+  /* padding-left: 100px; */
+}
+
+.section-news {}
+
+.news {}
+
+.news-title {}
+
+.second-title {
+  color: #00445B;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  text-transform: capitalize;
+  padding-left: 45px;
+
+}
+
+/* .news-list {
+  margin-top: 30px;
+  justify-content: space-around;
+} */
+
+.list {
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+/* .news-list-item {
+  width: 368px;
+  height: 178px;
+} */
+
+.list-item {
+  width: 368px;
+  /* height: 178px; */
+}
+
+.list-item_img {
+  max-width: 100%;
+}
+
+.news-list-item:not(:last-child) {
+  /* margin-right: 30px; */
+}
+
+/* .news-list-item_img {
+  max-width: 100%;
+} */
+
+.news-list-item_descr {
+  margin-top: 20px;
+}
+
+.third-titles {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.news-list-item_link {}
+
+.news-list-item_date {
+  color: #646464;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-top: 10px;
+}
+
+.section-courses {}
+
+.courses {}
+
+.courses-title {}
+
+.second-titles {}
+
+.courses-list {}
+
+.courses-list-item {
+  /* box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.13); */
+}
+
+.shadow-list-item {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.13);
+}
+
+.courses-list-item_img {}
+
+.courses-list-item_descr {
+  padding: 37px 37px 0px 37px;
+  background: #FFF;
+
+}
+
+.courses-list-item_descr-parag {
+  /* color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 16.8px */
+  letter-spacing: 0.28px;
+  padding-top: 10px;
+  */
+}
+
+.courses-btn {
+  margin: 37px;
+  padding: 15px 0px;
+  width: 295px;
+}
+
+.descr-parag {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 16.8px */
+  letter-spacing: 0.28px;
+  padding-top: 10px;
+}
+
+.section-teachers {}
+
+.teachers {}
+
+.teachers-title {}
+
+.teachers-list {}
+
+.teachers-list-item {}
+
+.teachers-list-item_img {}
+
+.teachers-list-item_descr {
+  margin: 37px;
+}
+
+.teachers-list-item_descr-parag {
+  margin-top: 20px;
+}
+
+.section-photos {}
+
+.photos {}
+
+.photos-title {}
+
+.photos-list {}
+
+.photos-list-item {
+  margin-bottom: 30px;
+}
+
+.photos-list-item:not(:nth-last-child(n+4)) {
+  margin-bottom: 0px;
+}
+
+.photos-list-item_img {}
+
+.section-videos {}
+
+.videos {}
+
+.videos-title {}
+
+.videos-list {}
+
+.videos-list-item {}
+
+.videos-list-item_img {}
+
+.section-results {}
+
+.results {
+  /* position: relative; */
+}
+
+.results-title {}
+
+.second-title {}
+
+.results-list {}
+
+.results-list-item {
+  position: relative;
+}
+
+.results-list-item_img {
+  width: 110px;
+  margin: 0px 130px;
+  /* overflow: hidden; */
+}
+
+.results-list-item_descr {
+  padding: 37px;
+  padding-top: 100px;
+  top: 50px;
+  position: absolute;
+}
+
+.results-list-item_descr-title {}
+
+.resuls-list-item_descr-parag {}
+
+.section-reviews {
+  margin-top: 300px;
+}
+
+.reviews {}
+
+.reviews-title {}
+
+.reviews-list {}
+
+.reviews-list-item {}
+
+.reviews-list-item_img {}
+
+.reviews-list-item_descr {
+  padding: 35px;
+}
+
+.reviews-list-item_descr-title {}
+
+.reviews-list-item_descr-course {
+  margin-top: 10px;
+  /* padding-top: 15px; */
+  color: #646464;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 16.8px */
+  letter-spacing: 0.28px;
+}
+
+.reviews-list-item_descr-parag {}
+
+.reviews-list-item_descr-rating {
+  margin-top: 20px;
+}
+
+.section-contacts {}
+
+.contacts {}
+
+.contacts-title {}
+
+.contacts-wrapper {
+  padding-left: 40px;
+}
+
+.contacts-map {
+  width: 1266px;
+  margin-top: 30px;
+}
+
+.contacts-data {
+  margin-top: 30px;
+  /* width: 246px; */
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 16.8px */
+  letter-spacing: 0.28px;
+}
+
+.contacts-adress {
+  position: relative;
+  width: 280px;
+
+}
+
+.contacts-adress_img {
+  position: relative;
+  bottom: 3px;
+}
+
+.contacts-adress_parag {
+  /* display: block; */
+  width: 246px;
+  margin-left: 10px;
+}
+
+.contacts-tel {
+  margin-left: 60px;
+}
+
+.contacts-tel_img {
+  position: relative;
+  bottom: 6px;
+}
+
+.contacts-tel_number {
+  margin-left: 10px;
+}
+
+.contacts-mail {
+  margin-left: 60px;
+}
+
+.contacts-mail_img {
+  position: relative;
+  bottom: 6px;
+}
+
+.contacts-mail_link {
+  margin-left: 10px;
+}
+
+.contacts-list {
+  margin-left: 130px;
+}
+
+.contacts-list-item {
+  margin-left: 20px;
+}
+
+.contcats-list-item_img {}
+
+.footer {
+
+  margin-top: 150px;
+}
+
+.footer-top {
+  background-color: var(--bg-color);
+  color: #FFF;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.footer-title {
+  color: #FFF;
+}
+
+.footer-form {
+  margin-top: 20px;
+}
+
+.footer-form-text {
+  width: 369px;
+  height: 46px;
+  padding: 15px;
+  margin-right: 30px;
+}
+
+.footer-form-tel {
+  margin-right: 30px;
+  width: 269px;
+  height: 46px;
+  padding: 15px;
+}
+
+.footer-form-mail {
+  margin-right: 30px;
+  width: 269px;
+  height: 46px;
+  padding: 15px;
+}
+
+.footer-form-btn {
+  width: 146px;
+  height: 46px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  margin-top: 100px;
+}
+
+.footer-logo-wrapper {
+  /* text-align: center; */
+  padding-top: 15px;
+}
+
+.footer-logo_img {
+  margin-right: 18px;
+}
+
+.footer-logo_text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.44px;
+}
+
+.footer-logo_parag {
+  width: 159px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-top: 10px;
+}
+
+.footer-parag {
+  margin-left: 520px;
+  padding-bottom: 50px;
+}
