@@ -2,11 +2,28 @@
 @import url(./normalize.css);
 
 /* .header {} */
+:root {
+  --text-color-green: #163A24;
+  --text-color-white: #FBFAF7;
+  --bg-color-light: #F2EFE6;
+  --bg-color-green: #163A24;
+}
 
 .container {
   width: 1440px;
   margin: 0 auto;
   padding: 0 100px;
+}
+
+.parag {
+  color: inherit;
+  font-family: 'NotoSans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* 150% */
+  margin-top: 27px;
 }
 
 .header-nav {
@@ -91,18 +108,6 @@
 }
 
 /* .header-parag {} */
-
-.parag {
-  color: inherit;
-  font-family: Noto Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  /* 150% */
-  margin-top: 27px;
-}
-
 /* .main {} */
 
 .section-human {
@@ -135,9 +140,6 @@
 .human-content {
   padding-left: 130px;
 }
-
-.human-top-title {}
-
 .second-titles {
   color: inherit;
   font-family: Recoleta;
@@ -171,9 +173,6 @@
 .human-bottom_img {
   margin-top: 66px;
 }
-
-.human-bottom-title {}
-
 .section-product {
   color: #FBFAF7
 }
@@ -201,7 +200,9 @@
 
 .product-list-descr {}
 
-.product-list-parag {} */
+*/ .product-list-parag {
+  font-family: 'NotoSans';
+}
 
 .section-empl {
   text-align: center;
@@ -238,7 +239,7 @@
   height: 423px;
   background-image: url(../img/img_8.png);
   background-repeat: no-repeat;
-  background-position: 100%;
+  background-position: 90%;
 }
 
 .scenes-wrapper {
@@ -256,9 +257,11 @@
   text-align: center;
 }
 
-.interest-content {}
+/* .interest-content {}
 
 .interest-title {}
+
+*/
 
 .third-titles {
   color: inherit;
@@ -270,7 +273,7 @@
   /* 112.5% */
 }
 
-.interest-parag {}
+/* .interest-parag {} */
 
 .cards-wrapper {
   display: flex;
@@ -288,7 +291,7 @@
   flex-grow: 0;
 }
 
-.card-img {}
+/* .card-img {} */
 
 .interest-card-title {
   /* width: 180px; */
@@ -301,7 +304,7 @@
 
 .card-list-item {
   color: inherit;
-  font-family: Noto Sans;
+  font-family: 'NotoSans';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -314,98 +317,206 @@
   margin-top: 0;
 }
 
-.section-easy {}
+/* .section-easy {} */
 
-.easy-content {}
+.easy-content {
+  color: var(--text-color-green);
+  background-color: var(--bg-color-light);
+}
 
-.easy-top {}
+.easy-top {
+  text-align: center;
+}
 
-.easy-title {}
+.easy-title {
+  padding-top: 115px;
+}
 
-.easy-parag {}
+/* .easy-parag {} */
 
-.easy-bottom {}
+.easy-bottom {
+  margin-top: 55px;
+  position: relative;
+  justify-content: space-around;
+  text-align: center;
+}
 
-.easy-bottom-descr {}
+.easy-bottom-descr {
+  width: 20%;
+}
 
-.easy-bottom-parag {}
+/* .easy-bottom-parag {} */
 
-.easy-bottom-title {}
+.easy-bottom-title {
+  margin-top: 15px;
+}
 
-.easy-bottom-img {}
+.arrow {
+  position: relative;
+  top: 55px;
+}
 
-.easy-btn {}
+.easy-bottom-img {
+  position: absolute;
+  bottom: -30px;
+  right: 15px;
+}
 
-.section-resource {}
+.easy-btn {
+  /* background-color: #198C36; */
+  margin: 50px auto;
+  position: relative;
+  /* top: 50px; */
+  left: 42%;
+}
 
-.resource-content {}
+.resource-content {
+  height: 488px;
+  background-image: url(../img/img_13.svg);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
 
-.resource-wrapper {}
+.resource-wrapper {
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
 
-.resource-title {}
+.resource-title {
+  width: 400px;
+}
 
-.resource-parag {}
+.resource-parag {
+  font-family: 'NotoSans';
+}
 
-.resource-btn {}
+.resource-btn {
+  margin-top: 20px;
+}
 
-.section-start {}
+.start-content {
+  height: 415px;
+  background-color: var(--bg-color-green);
+  text-align: center;
+  padding: 114px;
+  color: var(--text-color-white);
+}
 
-.start-content {}
+.start-btn {
+  background-color: #FAB5A0;
+  color: var(--bg-color-green);
+  margin-top: 20px;
+}
 
-.start-wrapper {}
+.section-date {
+  margin-top: 0;
+}
 
-.start-title {}
+.date-wrapper {
+  background-color: var(--bg-color-light);
+  padding: 60px 130px;
+}
 
-.start-parag {}
+.date-left_content {
+  width: 60%;
+  margin-right: auto;
+}
 
-.start-btn {}
+.date-right_content {
+  width: 45%;
+}
 
-.section-date {}
+.date-right_text {
+  border-radius: 255px;
+  border: 1px solid #F2EFE6;
+  background: #FFF;
+  height: 52px;
+  width: 80%;
+  margin-right: -20px;
+}
 
-.date-wrapper {}
+.date-right-btn {
+  width: 111px;
+  margin-left: -15px;
+}
 
-.date-left_content {}
+.date-right-parag {
+  color: #163A24;
+  font-family: 'NotoSans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+}
 
-.date-left-title {}
+.footer-top {
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
 
-.date-left-parag {}
+.footer-title {
+  color: #163A24;
+  text-align: center;
+  font-family: Recoleta;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  /* 150% */
+}
 
-.date-right_content {}
 
-.date-right_form {}
+/* .footer-top-list {
+  justify-content: space-between;
+} */
 
-.date-right_text {}
+.footer-top-list-item {
+  margin-right: 14px;
+}
 
-.date-right-btn {}
+.footer-top-list-item:last-child {
+  margin-right: 0;
+}
 
-.date-right-parag {}
 
-.footer {}
+.divide-line {
+  width: 99%;
+  height: 2px;
+  background-color: var(--bg-color-light);
+}
 
-.footer-top {}
+.footer-bottom {
+  padding: 30px;
+  /* padding-bottom: 20px; */
+}
 
-.footer-logo {}
+.footer-copyright {
+  margin-right: auto;
+  color: #163A24;
+  font-family: 'NotoSans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 150% */
+}
 
-.footer-logo_img {}
+/* .footer-bottom-list {} */
 
-.footer-parag {}
+.footer-bottom-item {
+  margin-right: 15px;
+  color: #198C36;
+  text-align: right;
+  font-family: 'NotoSans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-.footer-top-list {}
-
-.footer-top-list-item {}
-
-.footer-top-list_link {}
-
-.footer-top-list_img {}
-
-.divide-line {}
-
-.footer-bottom {}
-
-.footer-copyright {}
-
-.footer-bottom-list {}
-
-.footer-bottom-item {}
-
-.footer-bottom-list_link {}
+.footer-bottom-item:last-child {
+  margin-right: 0;
+}
