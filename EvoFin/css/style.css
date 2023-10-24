@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #00071A;
+}
+
+.header {
+  /* background-color: #00071A; */
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+.header-cont {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: 100% 75%;
+  /* background-image: url(../img/hand.png); */
+}
+
+.container {
+  /* width: 1200px; */
+  margin: 0 auto;
+  /* justify-content: flex-start; */
+  align-items: flex-end;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  /* width: 178px;   */
+  /* position: relative; */
+}
+
+
+.img_card {
+  position: relative;
+  /* top: 215px; */
+  right: 160px;
+}
+
+.img_hand {
+  /* z-index: 10; */
+}
+
+
+.img_1 {
+  /* margin-bottom: -120px; */
+  position: relative;
+  top: 275px;
+}
+
+.img_2 {
+  /* margin-bottom: -150px; */
+  position: relative;
+  top: 150px;
+}
+
+.img_3 {
+  z-index: -1;
+}
