@@ -241,6 +241,7 @@ input::placeholder {
 
 .bottom {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .bottom__link {
@@ -251,7 +252,7 @@ input::placeholder {
 }
 
 .bottom__link.disabled,
-.bottom__link-disabled:disabled {
+.bottom__link:disabled {
   cursor: not-allowed;
   pointer-events: all;
 }
